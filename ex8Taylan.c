@@ -12,7 +12,7 @@ int main()
     printf("\nQual é o salário da segunda pessoa? ");
     scanf("%f", &salario2);
     
-    somaSalarios = salario1 + salario2; // a soma será usado como base da divisão
+    somaSalarios = salario1 + salario2; // a soma será usada como base da divisão
     
     proporcao1 = salario1 / somaSalarios; 
     printf("\nA proporção do salário da 1º pessoa é: %.2f", proporcao1);
