@@ -1,31 +1,28 @@
 #include <stdio.h>
 
 int main() {
-    float nota1, nota2, nota3, nota4, media;
+    float n1, n2, n3, n4, media;
     
-    // Leitura das notas
     printf("Digite a primeira nota: ");
-    scanf("%f", &nota1);
+    scanf("%f", &n1);
     
     printf("Digite a segunda nota: ");
-    scanf("%f", &nota2);
+    scanf("%f", &n2);
     
     printf("Digite a terceira nota: ");
-    scanf("%f", &nota3);
+    scanf("%f", &n3);
     
     printf("Digite a quarta nota: ");
-    scanf("%f", &nota4);
+    scanf("%f", &n4);
     
-    // Cálculo da média ponderada
-    media = (nota1 * 1 + nota2 * 2 + nota3 * 3 + nota4 * 4) / (1 + 2 + 3 + 4);
+    media = (n1 * 1 + n2 * 2 + n3 * 3 + n4 * 4) / (1 + 2 + 3 + 4);
     
-    // Exibição do resultado
-    printf("\nMédia: %.2f\n", media);
+    printf("\nMédia: %.2f", media);
     
     if (media >= 7.0) {
-        printf("Aprovado\n");
+        printf("\nAprovado");
     } else {
-        printf("Reprovado\n");
+        printf("\nReprovado");
     }
     
     return 0;
