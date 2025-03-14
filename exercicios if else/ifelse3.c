@@ -12,7 +12,7 @@ int main() {
     
     if (faltas >= 5) {
         printf("\nVocê reprovou por faltas");
-    } else if (media < 7.0) {
+    } else if (media < 7) {
         printf("\nVocê reprovou por média");
     } else {
         printf("\nParabéns! Você foi aprovado");
