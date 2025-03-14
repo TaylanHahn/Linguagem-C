@@ -4,10 +4,10 @@ int main() {
     float media;
     int faltas;
 
-    printf("Digite a média do aluno: ");
+    printf("Digite sua média: ");
     scanf("%f", &media);
     
-    printf("Digite o número de faltas: ");
+    printf("Digite seu número de faltas: ");
     scanf("%d", &faltas);
     
     if (faltas >= 5) {
