@@ -17,7 +17,7 @@ int main() {
     } else if (idade >= 18) {
         printf("\nCategoria: Adulto");
     } else {
-        printf("\nIdade fora das categorias classificadas");
+        printf("\nIdade fora de categoria");
     }
     
     return 0;
