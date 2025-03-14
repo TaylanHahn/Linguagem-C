@@ -14,12 +14,12 @@ int main() {
     
     media = (nota1 + nota2 + nota3) / 3;
     
-    printf("\nMédia: %.2f\n", media);
+    printf("\nMédia: %.2f", media);
     
     if (media >= 7.0) {
-        printf("Aprovado\n");
+        printf("\nAprovado");
     } else {
-        printf("Reprovado\n");
+        printf("\nReprovado");
     }
     
     return 0;
