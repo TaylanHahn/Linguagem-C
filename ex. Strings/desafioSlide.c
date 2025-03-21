@@ -18,4 +18,13 @@ int main()
 	int tam2 = strlen(string2);
 	printf("\nTamanho da string: %d", tam2);
 	printf("\nCapacidade da string: %d", cap2);
+	
+	
+	if(sizeof(string1) > strlen(string1) + strlen(string2)){ //validação de tamanho da string 1
+	    printf("\nConcatenação permitida: ");
+	    strcat(string1, string2); // concatenação
+	    printf("\n%s", string1);
+	} else {
+	    printf("\nConcatenação não permitida por falta de memória.");
+	}
 }
