@@ -6,7 +6,7 @@ int main()
 	char nome [100];
 	int idade;
 
-	printf("Digite seu nome completo: ");
+	printf("Digite seu nome: ");
 	scanf(" %[^\n]s", nome);
 	printf("Digite sua idade: ");
     scanf("%d", &idade);
