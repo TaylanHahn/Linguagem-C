@@ -20,7 +20,7 @@ int main()
     
     
     if(faltas >= 5){
-        printf("Reprovado por faltas\n");
+        printf("\nReprovado por faltas");
     } else if(media >= 8){
         printf("\nAvaliação A");
     } else if(media >= 7 && media <= 7.9){
