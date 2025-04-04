@@ -8,7 +8,7 @@ int main()
     scanf("%d", &valor1);
     printf("Digite o segundo valor: ");
     scanf("%d", &valor2);
-     printf("Digite o terceiro valor: ");
+    printf("Digite o terceiro valor: ");
     scanf("%d", &valor3);
     
     resultado = (valor1 * valor2) * valor3;
