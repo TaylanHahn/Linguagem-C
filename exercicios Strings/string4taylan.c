@@ -1,3 +1,15 @@
+/**********************************************************************************************************
+4) Faça um programa que leia as notas de 2 provas e um trabalho e o numero de faltas.
+Calcule a média aritmética. E indique o conceito: 
+
+A para (8.0 a 10),
+B para (7.0 a 7.9),
+C para (6.0 a 6.9),
+D para (0.0 a 5.9)
+E para reprovado por faltas. Maior ou igual a 5.
+Escreva "Reprovado" ou "Aprovado".
+**********************************************************************************************************/
+
 #include <stdio.h>
 
 int main()
