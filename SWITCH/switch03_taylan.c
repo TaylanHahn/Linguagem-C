@@ -1,3 +1,17 @@
+/**********************************************************************************************************
+O cardápio de uma lancheria é o seguinte:
+
+Código	Especificação	Preço Unitário
+100	    Cachorro Quente	   R$10,00
+101	     Bauru Simples	   R$13,00
+102	     Bauru c/ ovo	   R$16,00
+103	       Hambuguer	   R$14,00
+104	     Cheeseburguer	   R$16,00
+105      Refrigerante	   R$4,00
+
+Escrever um programa que leia o código do item pedido, a quantidade e calcule o valor a ser pago por aquele pedido. 
+Considere que a cada execução somente será calculado um item.
+**********************************************************************************************************/
 
 #include <stdio.h>
 
