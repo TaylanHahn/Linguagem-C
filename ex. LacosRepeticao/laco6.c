@@ -9,11 +9,17 @@ Use um laço de repetição. Não é necessário arredondar ou decompor o valor.
 
 #include <stdio.h>
 
-int main(){
-    int valor = 100; i;
-    real poup = 0.5; total;
-    
-	for(i=0; i>=24; i++){
-        
+int main() {
+    double saldo = 0.0;
+    double depositoMensal = 100.0;
+    double taxaRendimento = 0.005; 
+
+    printf("Mes\tSaldo Acumulado\n");
+    for (int mes = 1; mes <= 24; mes++) {
+        saldo += depositoMensal; 
+        saldo += saldo * taxaRendimento; 
+        printf("%d\tR$ %.2f\n", mes, saldo);
     }
+
+    return 0;
 }
