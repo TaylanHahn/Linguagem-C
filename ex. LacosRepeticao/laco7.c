@@ -1,5 +1,4 @@
 /******************************************************************************
-
 7) Sistema de lancheria
 Uma lancheria possui o seguinte cardápio:
 Código   Produto             Preço
@@ -15,7 +14,6 @@ Leia repetidamente o código do item e a quantidade desejada;
 Calcule o valor parcial do item e acumule o total a pagar;
 Encerre a leitura quando for digitado um código fora do intervalo entre 100 e 105;
 Ao final, mostre o valor total do pedido.
-
 *******************************************************************************/
 
 #include <stdio.h>
