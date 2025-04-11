@@ -1,5 +1,4 @@
 /******************************************************************************
-
 8) Apuração de votos
 Em uma eleição presidencial há três candidatos. Os votos são registrados por meio de códigos:
 Código  Candidato
@@ -16,7 +15,6 @@ Ao final, exiba:
 Total de votos para cada candidato;
 Total de votos nulos e em branco;
 Nome do candidato vencedor (em caso de empate, indique que houve empate).
-
 *******************************************************************************/
 
 #include <stdio.h>
