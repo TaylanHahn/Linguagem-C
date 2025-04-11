@@ -1,4 +1,13 @@
+/**********************************************************************************************************
+02) Calculadora: Ler a operação de acordo com o código abaixo, depois Ler dois números e imprimir o resultado.
 
+código(símbolo)	-   Operação
+       +	        soma
+       -	       subtração
+       /	        divisão
+       *	     multiplicação
+Dica: use '+', '-', '/', '*'
+**********************************************************************************************************/
 #include <stdio.h>
 
 int main()
