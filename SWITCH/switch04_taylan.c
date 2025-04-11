@@ -1,3 +1,14 @@
+/**********************************************************************************************************
+Leia o código da função e o salário atual do funcionário. De acordo com a tabela abaixo, indique o novo salário.
+
+Código	Cargo	       Aumento
+1	    Escriturário    30%
+2	    Secretário	    25%
+3	    Caixa	        20%
+4	    Gerente	        10%
+5	    Diretor	        0
+Indique uma mensagem de erro se o código não existir.
+**********************************************************************************************************/
 
 #include <stdio.h>
 
