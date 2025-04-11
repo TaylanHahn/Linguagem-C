@@ -1,5 +1,7 @@
-// 1) Pares com FOR: Escreva um programa que imprima os números pares de 1 a 20, em ordem crescente, utilizando o comando for.
-
+/**********************************************************************************************************
+1) Pares com FOR
+Escreva um programa que imprima os números pares de 1 a 20, em ordem crescente, utilizando o comando for.
+**********************************************************************************************************/
 #include <stdio.h>
 
 int main()
