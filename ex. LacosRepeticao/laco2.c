@@ -1,5 +1,7 @@
-// 2)Ímpares com FOR em ordem decrescente: Escreva um programa que imprima os números ímpares entre 1 e 20, em ordem decrescente, utilizando o comando for.
-
+/**********************************************************************************************************
+2) Ímpares com FOR em ordem decrescente
+Escreva um programa que imprima os números ímpares entre 1 e 20, em ordem decrescente, utilizando o comando for.
+**********************************************************************************************************/
 #include <stdio.h>
 
 int main()
