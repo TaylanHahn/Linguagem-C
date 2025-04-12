@@ -1,3 +1,8 @@
+/**********************************************************************************************************
+Exercício 1.  Leia 03 (três) notas de um aluno, calcule sua média. Caso a média seja menor que 7 ele será reprovado.
+Apresente a média calculada e a situação (aprovado ou reprovado).
+**********************************************************************************************************/
+
 #include <stdio.h>
 
 int main() {
