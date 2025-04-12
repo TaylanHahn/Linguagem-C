@@ -1,3 +1,11 @@
+/**********************************************************************************************************
+Exercício 9 - Considerando que o aumento dos funcionários é de 75% do INPC e mais um percentual de
+produtividade discutido com a empresa. Construir um programa que lê o número do funcionário, seu salário atual,
+o valor do INPC e o índice de produtividade e escreve o número do funcionário, seu aumento e o valor de seu novo salário.
+Aumento=Salario*0.75*INPC/100  + Salario*IndiceProdutividade/100
+Salario Novo = Salario + Aumento  
+**********************************************************************************************************/
+
 #include <stdio.h>
 
 int main()
