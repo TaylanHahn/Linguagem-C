@@ -1,3 +1,12 @@
+/**********************************************************************************************************
+Exercício 4. - Escreva um programa que, dada a idade de um nadador, classifique-o em uma das seguintes categorias:
+infantil A = 5 - 7 anos
+infantil B = 8-10 anos
+juvenil A = 11-13 anos
+juvenil B = 14-17 anos
+adulto = 18 anos ou mais
+**********************************************************************************************************/
+
 #include <stdio.h>
 
 int main() {
