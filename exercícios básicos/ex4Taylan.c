@@ -1,3 +1,9 @@
+/**********************************************************************************************************
+Exercício 4. Escreva um programa que leia 4 notas: a primeira com peso 1, a segunda com peso 2, 
+a terceira com peso 3, a quarta com peso 4. Leia as 4 notas e cacule a média e escreva na tela.
+Media = (N1*1+N2*2+N3*3+N4*4)/(1+2+3+4) 
+**********************************************************************************************************/
+
 #include <stdio.h>
 
 int main()
