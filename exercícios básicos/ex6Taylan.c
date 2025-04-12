@@ -1,3 +1,8 @@
+/**********************************************************************************************************
+Exercício 6.  Desenvolva um programa que faça a conversão de um valor lido em dólares para um valor em reias.
+O usuário deve informar a quantidade em dólares e a cotação do dólar no dia.
+**********************************************************************************************************/
+
 #include <stdio.h>
 
 int main()
