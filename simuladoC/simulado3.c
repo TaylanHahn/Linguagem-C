@@ -48,7 +48,7 @@ int main() {
     int vbPrefeito = 0, vnPrefeito = 0;
     //LEGENDA: i = contador, vv = votos váidos, vb = votos brancos, vn = votos nulos
 
-    for (int i = 0; i < 3; i++) {
+    for (int i = 0; i < 7; i++) {
         printf("\n-----------------------------\n");
         printf("Digite o voto para vereador\n");
         printf("Vereador A - 66666\n");
