@@ -41,14 +41,14 @@ c - Cálculo correto da Contagem de Votos ;
 #include <stdio.h>
 
 int main() {
-    int votosVereador[7], votosPrefeito[7];
+    int votosVereador, votosPrefeito;
     int iVereadorA = 0, iVereadorB = 0, iVereadorC = 0, iVereadorD = 0;
     int vbVereador = 0, vnVereador = 0;
     int iPrefeitoX = 0, iPrefeitoY = 0, iPrefeitoZ = 0;
     int vbPrefeito = 0, vnPrefeito = 0;
     //LEGENDA: i = contador, vv = votos váidos, vb = votos brancos, vn = votos nulos
 
-    for (int i = 0; i < 7; i++) {
+    for (int i = 0; i < 3; i++) {
         printf("\n-----------------------------\n");
         printf("Digite o voto para vereador\n");
         printf("Vereador A - 66666\n");
@@ -56,21 +56,17 @@ int main() {
         printf("Vereador C - 88888\n");
         printf("Vereador D - 99999\n");
         printf("Voto em branco - 111\n");
-        printf("Voto nulo - 0\n");
-        scanf("%d", &votosVereador[i]);
+        printf("Voto nulo - 000\n");
+        scanf("%d", &votosVereador);
 
-        if (votosVereador[i] == 66666)
-            iVereadorA++;
-        else if (votosVereador[i] == 77777)
-            iVereadorB++;
-        else if (votosVereador[i] == 88888)
-            iVereadorC++;
-        else if (votosVereador[i] == 99999)
-            iVereadorD++;
-        else if (votosVereador[i] == 111)
-            vbVereador++;
-        else
-            vnVereador++;
+        switch(votosVereador){
+            case 66666: iVereadorA++;break;
+            case 77777: iVereadorB++;break;
+            case 88888: iVereadorC++;break;
+            case 99999: iVereadorD++;break;
+            case 111: vbVereador++;break;
+            case 000: vnVereador++;break;
+        }
             
         printf("\n----------------------------\n");
         printf("Digite o voto para prefeito\n");
@@ -78,19 +74,17 @@ int main() {
         printf("PrefeitoY - 88\n");
         printf("PrefeitoZ - 77\n");
         printf("Voto em branco - 111\n");
-        printf("Voto nulo - 0\n");
-        scanf("%d", &votosPrefeito[i]);
+        printf("Voto nulo - 000\n");
+        scanf("%d", &votosPrefeito);
+        
+        switch(votosPrefeito){
+            case 99: iPrefeitoX++;break;
+            case 88: iPrefeitoY++;break;
+            case 77: iPrefeitoZ++;break;
+            case 111: vbPrefeito++;break;
+            case 000: vnPrefeito++;break;
+        }
 
-        if (votosPrefeito[i] == 99)
-            iPrefeitoX++;
-        else if (votosPrefeito[i] == 88)
-            iPrefeitoY++;
-        else if (votosPrefeito[i] == 77)
-            iPrefeitoZ++;
-        else if (votosPrefeito[i] == 111)
-            vbPrefeito++;
-        else
-            vnPrefeito++;
     }
 
     // Resultado dos vereadores
@@ -116,7 +110,6 @@ int main() {
 
     return 0;
 }
-
 
 
 
