@@ -35,9 +35,9 @@ int main()
         
         // Testa se é par
         if(nDigitado % 2 == 0){
+            printf("Tabuada do nº %d\n", nDigitado);
             for(i=0;i<=10;i++){
                 tabuada = nDigitado * i;
-                printf("Tabuada do nº %d\n", nDigitado);
                 printf("%d x %d = %d\n", nDigitado, i, tabuada);
             }
         } 
@@ -49,7 +49,7 @@ int main()
             iImpar++;
             mediaImpar = sImpar/iImpar; // Calcula a média dos ímpares
             for(i=1;i<=nDigitado;i++){
-                if(i % 2 != 0){
+                if(nDigitado % i == 0){
                     printf(" %d ", i);
                 }
             }
