@@ -41,7 +41,7 @@ int main() {
     scanf("%lf", &metaValor);
     
     printf("Mes\tPrevisão de Retorno\n");
-    for (int i=0; saldo <= metaValor; i++) {
+    for (int i=1; saldo <= metaValor; i++) {
         saldo += valorMensal; 
         saldo += saldo * percMensal; 
         printf("Mês %d   R$ %.2lf\n", i, saldo);
