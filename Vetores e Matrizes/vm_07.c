@@ -1,5 +1,11 @@
 /******************************************************************************
-6- CAIXA ELETRÔNICO. Escrever um programa que lê um valor inteiro em reais e calcula qual o menor número possível de notas de 100, 50, 20, 10, 5, 2 e 1 em que o valor lido pode ser entregue ao cliente. Escrever a relação de notas necessárias. Utilize um vetor para armazenar o valor de cada tipo de nota. Notas = {100, 50, 20, 10, 5, 2, 1}
+7 - Faça um programa que carregue uma matriz 3x3 de números inteiros. Calcule:
+
+a - o maior número
+b - o menor número
+c - a média dos números
+d - a soma da primeira linha
+e - o produto (multiplicação) da diagonal principal
 *******************************************************************************/
 
 #include <stdio.h> // Inclui funções de entrada e saída
